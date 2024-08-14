@@ -1,0 +1,65 @@
+# Node.js specific files and directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+/dist/
+/build/
+/public/build/
+/public/dist/
+/.serve/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Ignore eslint and prettier configuration cache
+.eslintcache
+.prettiercache
+
+# Ignore environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore local configuration files
+.vscode/
+.idea/
+.DS_Store
+*.local
+
+# Ignore Next.js specific files
+.next/
+/out/
+
+# Ignore React Native specific files
+.expo/
+.expo-shared/
+
+# Ignore parcel-bundler cache files
+.cache/
+
+# Ignore Svelte specific files
+.svelte-kit/
+
+# Ignore storybook build artifacts
+.storybook/
+*.stories.mdx
+*.stories.js
+
+# Ignore webpack specific files
+.cache/
